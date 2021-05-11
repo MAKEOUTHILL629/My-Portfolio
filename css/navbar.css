@@ -47,7 +47,7 @@ main{
     width: 100%;
 }
 
-.nav-item:last-child{
+ .nav-item:nth-last-child(2){
     margin-top: auto;
 }
 
@@ -76,6 +76,12 @@ main{
 
 .nav-link svg{
     fill: inherit;
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.nav-link img{
     width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
