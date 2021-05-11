@@ -63,7 +63,7 @@ main{
     width: 100%;
 }
 
- .nav-item:nth-last-child(2){
+ .nav-item:nth-last-child(1){
     margin-top: auto;
 }
 
