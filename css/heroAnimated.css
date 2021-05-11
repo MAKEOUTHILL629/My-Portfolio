@@ -1,0 +1,50 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-animate{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #31345A;
+} 
+
+.hero{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    color: #E5EAF5;
+    text-align: center;
+    font-size: 8vw;
+    line-height: 1em;
+    z-index: 1000;
+    font-weight: 900;
+    text-shadow: 0 0.04em 0 #D0BDF4;
+}
+
+.hero h1 span{
+    color: #8458B3;
+    font-size: 0.4em;
+    letter-spacing: 0.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.block{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: #31345A;
+    box-shadow: 8px 8px 40px rgba(0, 0, 0, .2);
+    z-index: 200;
+}
