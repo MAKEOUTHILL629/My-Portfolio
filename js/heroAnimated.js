@@ -1,10 +1,26 @@
 const widthScreen = screen.width;
 const heightScreen = screen.height;
 
+function isMobile(){
+    return (
+        (navigator.userAgent.match(/Android/i)) ||
+        (navigator.userAgent.match(/webOS/i)) ||
+        (navigator.userAgent.match(/iPhone/i)) ||
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i)) ||
+        (navigator.userAgent.match(/BlackBerry/i))
+    );
+}
+var n=0;
+if(isMobile()){
+    n=10;
+}else{
+    n=30;
+}
 
 
 const hero = document.querySelector('.hero');
-for(let i =0; i <= 35; i++){
+for(let i =0; i <= n; i++){
     const blocks = document.createElement('div');
     blocks.classList.add('block');
     hero.appendChild(blocks);
