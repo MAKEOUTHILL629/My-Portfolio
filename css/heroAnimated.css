@@ -29,7 +29,7 @@
     text-align: center;
     font-size: 8vw;
     line-height: 1em;
-    z-index: 1000;
+    z-index: 80;
     font-weight: 900;
     text-shadow: 0 0.04em 0 var(--text-quinary);
 }
