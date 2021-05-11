@@ -1,3 +1,4 @@
+@import url(./variables.css);
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #31345A;
+    background: var(--bg-primary);
 } 
 
 .hero{ 
@@ -24,17 +25,17 @@
 }
 
 .hero h1{
-    color: #E5EAF5;
+    color: var(--text-ternary);
     text-align: center;
     font-size: 8vw;
     line-height: 1em;
     z-index: 1000;
     font-weight: 900;
-    text-shadow: 0 0.04em 0 #D0BDF4;
+    text-shadow: 0 0.04em 0 var(--text-quinary);
 }
 
 .hero h1 span{
-    color: #8458B3;
+    color: var(--text-quinary);
     font-size: 0.4em;
     letter-spacing: 0.4em;
     font-weight: 400;
@@ -46,7 +47,7 @@
     position: absolute;
     width: 50px;
     height: 100px;
-    background: #31345A;
+    background: var(--bg-primary);
     box-shadow: 8px 8px 40px rgba(0, 0, 0, .2);
     z-index: 50;
 }

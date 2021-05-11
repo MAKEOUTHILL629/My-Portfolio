@@ -15,7 +15,7 @@ var n=0;
 if(isMobile()){
     n=10;
 }else{
-    n=30;
+    n=18;
 }
 
 
@@ -30,10 +30,10 @@ function animatedBlocks(){
     anime({
         targets: '.block',
         translateX: function(){
-            return anime.random(-widthScreen ,widthScreen);
+            return anime.random(-(widthScreen/2) ,(widthScreen/2));
         },
         translateY: function(){
-            return anime.random(-heightScreen,heightScreen);
+            return anime.random(-(heightScreen/2),(heightScreen/2));
         }, 
         scale: function(){
             return anime.random(1,5);

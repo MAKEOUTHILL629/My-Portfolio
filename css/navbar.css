@@ -1,14 +1,8 @@
+@import url(./variables.css);
+
 :root{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    --text-primary: #E5EAF5;
-    --text-secondary: #a0d2eb;
-    --text-ternary:#d0bdf4;
-    --bg-primary: #494d5f;
-    --bg-secondary:#8458b3;
     --transition-speed: 600ms;
 }
-
 
 body::-webkit-scrollbar{
     width: 0.25rem;
@@ -32,9 +26,10 @@ main{
 .navbar{
     
     position: fixed;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
     z-index: 100;
     transition: width 600ms ease;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, .5) ;
     /* overflow: scroll; */
 }
 
@@ -64,12 +59,14 @@ main{
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
     transition: var(--transition-speed);
+    fill: var(--text-primary);
 }
 
 .nav-link:hover{
     filter: grayscale(0%) opacity(1);
-    background: var(--bg-secondary);
-    color: var(--text-ternary);
+    background: var(--bg-ternary);
+    color: var(--bg-primary);
+    fill: var(--bg-primary);
 }
 
 .link-text{
@@ -78,10 +75,13 @@ main{
 }
 
 .nav-link svg{
+    fill: inherit;
     width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
 }
+
+
 
 .fa-primary{
     color: var(--text-ternary);
@@ -104,7 +104,7 @@ main{
     margin-bottom: 1rem;
     text-align: center;
     color: var(--text-secondary);
-    background: var(--bg-secondary);
+    background: var(--bg-primary);
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
@@ -190,17 +190,25 @@ main{
 
 
   .dark {
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --text-primary: #E5EAF5;
+    --text-secondary: #a0d2eb;
+    --text-ternary: var(--color-secondary);
+
+    --bg-primary: #31345A;
+    --bg-secondary:#494D5F;
+    
   }
   
   .light {
-    --text-primary: #1f1f1f;
-    --text-secondary: #000000;
-    --bg-primary: #ffffff;
-    --bg-secondary: #e4e4e4;
+    --text-primary: #494d5f;
+    --text-secondary: #8458b3;
+    --text-ternary: var(--color-senary);
+    --text-quinary: var(--color-quaternary);
+
+
+    --bg-primary: #E5EAF5;
+    --bg-secondary: #a0d2eb;
+    --bg-ternary:var(--color-quaternary);
   }
   
   

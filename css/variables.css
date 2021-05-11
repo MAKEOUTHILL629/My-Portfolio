@@ -1,0 +1,26 @@
+:root{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    --color-primary: #a0d2eb;
+    --color-secondary: #E5EAF5;
+    --color-ternary:#d0bdf4;
+    --color-quaternary:#8458b3;
+    --color-quinary: #494d5f;
+    --color-senary: #31345A;
+
+
+    --text-primary: var(--color-secondary);
+    --text-secondary: var(--color-primary);
+    --text-ternary: var(--color-secondary);
+    --text-quaternary: var(--color-quinary);
+    --text-quinary: var(--color-ternary);
+
+    --bg-primary: var(--color-quinary);
+    --bg-secondary:var(--color-senary);
+    --bg-ternary:var(--color-primary);
+    --bg-quaternary: var(--bg-secondary) ;
+     
+
+
+    
+}
