@@ -43,6 +43,16 @@
     text-shadow: none;
 }
 
+
+
+.hero h1 .sub-title{
+    color: var(--text-quinary);
+    font-size: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--text-ternary);
+    font-style: italic;
+}
+
 .block{
     position: absolute;
     width: 50px;

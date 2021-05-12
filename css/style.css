@@ -1,4 +1,4 @@
-
+@import url(./variables.css);
 .contenedor-perfil{
     margin: 30px auto;
     text-align: center;
@@ -17,5 +17,37 @@
     background-position: top;
 }
 
+main{
+   background-color: var(--bg-primary-opacity);
+   color: var(--text-primary);
+   width: calc(100vw - 5.28rem);
+   
+}
+.container{
+    width: 100%;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    text-align: center;
+    flex-basis: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+.about_copy{
+    margin: 0 auto;
+    text-align: left;    
+    line-height: 1.7;
+    position: relative;
+}
 
 

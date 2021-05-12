@@ -7,7 +7,10 @@
     --color-quaternary:#8458b3;
     --color-quinary: #494d5f;
     --color-senary: #31345A;
-
+    --color-septenary:#23232e;
+    --color-octonary:#141418;
+    --color-nonary:#ffffff;
+    --color-denary: #e4e4e4;
 
     --text-primary: var(--color-secondary);
     --text-secondary: var(--color-primary);
@@ -16,7 +19,9 @@
     --text-quinary: var(--color-ternary);
 
     --bg-primary: var(--color-quinary);
+    --bg-primary-opacity: var(--color-septenary);
     --bg-secondary:var(--color-senary);
+    --bg-secondary-opacity: var(--color-octonary);
     --bg-ternary:var(--color-primary);
     --bg-quaternary: var(--bg-secondary) ;
      
