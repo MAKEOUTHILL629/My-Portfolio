@@ -18,17 +18,19 @@
 }
 
 main{
+    display: block;
+   margin-left: 5rem;
    background-color: var(--bg-primary-opacity);
    color: var(--text-primary);
    width: calc(100vw - 5.28rem);
-   
+   overflow: scroll;
 }
 .container{
     width: 100%;
 }
 
 .about-me{
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
