@@ -8,6 +8,8 @@
     min-width: 100px;
 }
 
+
+
 .image-perfil{
     
     width: 100%;
@@ -23,12 +25,12 @@
 
 main{
   
-   /* border-top: 0.3rem dashed var(--text-primary); */
+   
    margin-left: 5rem;
    background-image: linear-gradient(to top left, var(--bg-primary-opacity), var(--bg-secondary-opacity));
-   /* background-color: var(--bg-primary-opacity); */
+   
    color: var(--text-primary);
-
+   padding-left: 0;
    width: calc(100vw - 5.28rem);
    
 }
