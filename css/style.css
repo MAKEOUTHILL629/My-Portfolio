@@ -30,7 +30,7 @@ main{
    background-image: linear-gradient(to top left, var(--bg-primary-opacity), var(--bg-secondary-opacity));
    
    color: var(--text-primary);
-   padding-left: 0;
+   
    width: calc(100vw - 5.28rem);
    
 }
