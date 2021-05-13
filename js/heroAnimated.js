@@ -11,6 +11,7 @@ function isMobile(){
         (navigator.userAgent.match(/BlackBerry/i))
     );
 }
+
 var n=0;
 if(isMobile()){
     n=10;
