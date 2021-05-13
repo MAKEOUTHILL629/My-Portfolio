@@ -3,6 +3,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     --color-primary: #a0d2eb;
     --color-secondary: #E5EAF5;
+    
     --color-ternary:#d0bdf4;
     --color-quaternary:#8458b3;
     --color-quinary: #494d5f;
@@ -11,6 +12,8 @@
     --color-octonary:#141418;
     --color-nonary:#ffffff;
     --color-denary: #e4e4e4;
+    --color-opacity-primary:rgba(255, 255, 255, 0.05);
+    --color-opacity-secondary:rgba(0, 0, 0, 0.05);
 
     --text-primary: var(--color-secondary);
     --text-secondary: var(--color-primary);
@@ -25,7 +28,7 @@
     --bg-ternary:var(--color-primary);
     --bg-quaternary: var(--bg-secondary) ;
      
-
+    --color-opacity:var(--color-opacity-primary);
 
     
 }

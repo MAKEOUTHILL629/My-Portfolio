@@ -222,6 +222,8 @@ main{
     --bg-secondary:#494D5F;
     --bg-primary-opacity: var(--color-septenary);
     --bg-secondary-opacity: var(--color-octonary);
+
+    --color-opacity:var(--color-opacity-primary);
   }
   
   .light {
@@ -236,6 +238,8 @@ main{
     --bg-ternary:var(--color-quaternary);
     --bg-primary-opacity: var(--color-nonary);
     --bg-secondary-opacity: var(--color-denary);
+
+    --color-opacity:var(--color-opacity-secondary);
   }
   
   
