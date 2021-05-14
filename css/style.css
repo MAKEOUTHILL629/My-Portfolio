@@ -1,4 +1,6 @@
 @import url(./variables.css);
+
+
 .contenedor-perfil{
     margin: 30px auto;
     text-align: center;
@@ -91,6 +93,10 @@ main{
     visibility: visible;
 }
 
+
+.contact{
+    height: 90vh;
+}
 
 @media only screen and (max-width:600px){
     main{
