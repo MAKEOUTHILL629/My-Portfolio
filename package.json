@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Mi portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAKEOUTHILL629/My-Portfolio.git"
+  },
+  "author": "Felipe Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAKEOUTHILL629/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/MAKEOUTHILL629/My-Portfolio#readme"
+}
