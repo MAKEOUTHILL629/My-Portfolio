@@ -21,7 +21,7 @@ if(isMobile()){
 
 
 const hero = document.querySelector('.hero');
-for(let i =0; i <= n; i++){
+for(var i =0; i <= n; i++){
     const blocks = document.createElement('div');
     blocks.classList.add('block');
     hero.appendChild(blocks);

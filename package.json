@@ -4,7 +4,10 @@
   "description": "Mi portafolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin img/*.jpg --out-dir dist/img",
+    "usemin": "usemin index.html -d dist -o dist/index.html --htmlmin true"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/MAKEOUTHILL629/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/MAKEOUTHILL629/My-Portfolio#readme"
+  "homepage": "https://github.com/MAKEOUTHILL629/My-Portfolio#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  }
 }
