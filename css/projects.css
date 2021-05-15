@@ -32,9 +32,9 @@
 }
 
 
-.swiper-container-3d .swiper-slide-shadow-left,
-.swiper-container-3d .swiper-slide-shadow-right{
-    background-image: none;
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right{
+    background-image: none !important;
 }
 
 
@@ -101,7 +101,7 @@
     color: var(--text-secondary);
 }
 .projects-container .projects-card:hover .projects-content h2 span{
-    color: #fff;
+    color: var(--text-primary);
 }
 
 

@@ -150,6 +150,21 @@ footer{
     fill: inherit;
 }
 
+.footer ul li a:hover{
+    
+
+    fill: var(--text-quinary) ;
+    transition: 0.3s;
+
+}
+
+.footer ul li a:hover svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
 
 @media only screen and (max-width:600px){
     main{

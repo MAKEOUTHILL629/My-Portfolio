@@ -43,6 +43,7 @@
 .contact-container .contact-contact-info ul.contact-info li span:nth-child(1){
     width: 30px;
     min-width: 30px;
+    margin-right: 2rem;
 }
 
 .contact-container .contact-contact-info ul.contact-info li span:nth-child(1) svg{
@@ -70,6 +71,14 @@
     height: 3rem;
     width: 3rem;
 }
+
+.contact-container .contact-contact-info ul.contact-social li a:hover svg{
+    fill: var(--text-quinary) ;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+
 
 .contact-container .contact-contact-info{
     position: absolute;

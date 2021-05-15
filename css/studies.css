@@ -55,6 +55,13 @@
     margin-left: -130px;
 }
 
+.studies-card:nth-child(5) .studies-card-header h2{
+    /* max-height: 150px; */
+    text-align:center ;
+    font-size: 1rem;
+
+}
+
 .studies-card-header {
     
     margin-bottom: 20px;
