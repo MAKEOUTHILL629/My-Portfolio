@@ -30,11 +30,17 @@ main{
    
    margin-left: 5rem;
    background-image: linear-gradient(to top left, var(--bg-primary-opacity), var(--bg-secondary-opacity));
-   
+   background-attachment: fixed;
    color: var(--text-primary);
    
    width: calc(100vw - 5.28rem);
    
+}
+
+footer{
+    margin-left: 5rem; 
+    background-image: linear-gradient(to top left, var(--bg-primary-opacity), var(--bg-secondary-opacity));
+    width: calc(100vw - 5.28rem);
 }
 
 
@@ -94,9 +100,7 @@ main{
 }
 
 
-.contact{
-    height: 90vh;
-}
+
 
 @media only screen and (max-width:600px){
     main{

@@ -78,9 +78,9 @@
 .projects-container .projects-card .projects-content p {
     margin-top: 30px;
     font-size: 18px;
-    line-height: 24px;
-    /* margin-bottom: 20px; */
-    text-align: justify;
+    line-height: 18px;
+    
+    text-align: center;
     color: var(--text-primary);
 }
 
@@ -114,23 +114,19 @@
 
 .projects-img img{
     
-    max-width: 90%;
-    max-height: 40vh;
+    max-width: 100%;
+    max-height: 35vh;
     padding-top: 20px;
-    /* max-width: 450px;
-    max-height: 240px; */
+    
     object-fit: cover;
     
 }
 
 
-/* @media only screen and (min-width:600px){
-    .projects-img{
-        padding-top: 0;
+ @media only screen and (max-width:600px){
+    .projects-container .projects-card .projects-content p{
+        font-size: 1rem;
+        margin-top: 20px;
+        text-align: center;
     }
-
-    .projects-img img{
-        width: 66%;
-        height: 10%; 
-    }
-} */
+} 
