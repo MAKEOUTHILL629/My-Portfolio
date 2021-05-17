@@ -134,7 +134,11 @@
     margin-bottom: 35px;
 }
 
-
+.contact-container .contact-contact-form .formBox p{
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: .3s;
+}
 
 .contact-container .contact-contact-form .formBox .inputBox.w100{
     width: 100%;
