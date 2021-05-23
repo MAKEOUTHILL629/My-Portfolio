@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center ;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 40px;
     min-height: 100vh;
     background: var(--bg-primary-opacity);
 
@@ -25,8 +25,8 @@
 }
 
 .container-skills{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
     width: 900px;
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +139,7 @@
 
 .card-skills:nth-child(6) .text-card{
     background: var(--color-senary);
+    
 }
 
 .percent svg{
@@ -194,7 +195,7 @@
 
 .section-title{
     position: absolute;
-    top: 1px;
+    top: 1rem;
     text-transform: uppercase;
     font-size: 2rem;
     color: var(--text-quinary);
@@ -202,9 +203,13 @@
 }
 
 .skills-others{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 30px;
     position: absolute;
     bottom: 1rem;
-    height: 5rem;
+    height: 6rem;
 }
 
 
@@ -218,5 +223,5 @@
 
 .others{
     
-    margin-left: 2rem;
+    margin: 0 1rem;
 }

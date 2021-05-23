@@ -176,6 +176,23 @@ footer{
 
         margin-left: 0;
         width: 100vw;
+        height: 10.2rem;
+    }
+
+    .footer_wave{
+        position: absolute;
+        bottom: 10rem;
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        
+        align-items: center;
+    }
+
+    .footer p{
+        margin-top: 10px;
     }
 }
 

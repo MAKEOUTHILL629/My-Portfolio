@@ -195,6 +195,7 @@
 .contact-container .contact-contact-form .formBox .inputBox input[type="submit"]:hover{
     padding: 1rem;
     background: var(--bg-quaternary);
+    color: var(--color-secondary);
     transition: 0.3s;
     font-weight: bold;
 }

@@ -1,5 +1,8 @@
 @import url(./variables.css);
 
+*{
+    
+}
 
 .projects{
     margin-top: -3rem;
@@ -23,8 +26,8 @@
 .swiper-slide{
     background-position: center;
     background-size: cover;
-    width: 70vw !important;
-    height: 70vh !important;
+    width: 77vw !important;
+    height: 72vh !important;
     min-height: 350px;
     margin: 0 20px;
     border-radius: 20px;
@@ -39,21 +42,22 @@
 
 
 .projects-container .projects-card{
+    
     position: relative;
     width: 100%;
     height: 100%;
     min-height: 320px;
-    margin: 0 auto;
+    
     background: var(--bg-secondary-opacity);
     border-radius: 20px;
-    padding: 60px 40px;
+    padding: 1rem 1rem;
     text-align: center;
     overflow: hidden;
 }
 
 .projects-container .projects-card .projects-layer{
     position: absolute;
-    top: calc(70vh - 2px);
+    top: calc(72vh - 2px);
     border-radius: 20px;
     left: 0;
     width: 100%;
@@ -71,13 +75,13 @@
 
 
 .projects-content{
-    max-height: 90%;
+    /* min-height: 300px; */
     position: relative;
     z-index: 2;
 }
 
 .projects-container .projects-card .projects-content p {
-    margin-top: 30px;
+    padding: 0 2rem;
     font-size: 18px;
     line-height: 18px;
     
@@ -107,18 +111,17 @@
 
 
 .projects-content .projects-img{
-   display: block;
-  
-   margin: 0 auto;
-   width: 66%;
-   height: 35vh;
+   display: inline-block;
+   width: 90%;
+   
+   text-align: center;
    overflow: hidden;
 }
 
 .projects-img img{
-   
+    
     max-width: 100%;
-    max-height: 35vh;
+    max-height: 50vh;
     padding-top: 20px;
     
     object-fit: cover;
@@ -129,11 +132,30 @@
 
 
 
+@media screen  and (max-width:1000px){
+    .swiper-slide{
+        max-height: 52vh;
+    }
 
- @media only screen and (max-width:600px){
+}
+
+@media only screen and (max-width:600px){
     .projects-container .projects-card .projects-content p{
         font-size: 1rem;
-        margin-top: 20px;
-        text-align: center;
+        margin-top: .5rem;
+        text-align: justify;
+        padding: 0 .5rem;
     }
+    .projects-container .projects-card .projects-content h2{
+        font-size: 1.2rem;
+    }
+
+    
+    
 } 
+
+@media screen and (min-width:660px) and (max-width: 1000px){
+    .swiper-slide{
+        max-height: 50vh;
+    }
+}
