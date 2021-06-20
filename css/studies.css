@@ -8,6 +8,7 @@
     padding: 3rem 0 3rem 3rem;
     overflow-x: scroll;
     
+    scrollbar-width: none;
 }
 
 .studies-card-list::-webkit-scrollbar {

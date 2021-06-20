@@ -13,6 +13,7 @@
 body{
     background-image: linear-gradient(to top left, var(--bg-primary-opacity), var(--bg-secondary-opacity));
     background-attachment: fixed;
+    overflow-x:hidden ;
 }
 
 .image-perfil{
