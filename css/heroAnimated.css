@@ -40,7 +40,7 @@
     font-size: 0.4em;
     letter-spacing: 0.4em;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-shadow: none;
 }
 

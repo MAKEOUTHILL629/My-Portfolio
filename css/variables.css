@@ -13,6 +13,7 @@
     --color-denary: #e4e4e4;
     --color-opacity-primary:rgba(255, 255, 255, 0.05);
     --color-opacity-secondary:rgba(0, 0, 0, 0.05);
+    
 
     --text-primary: var(--color-secondary);
     --text-secondary: var(--color-primary);

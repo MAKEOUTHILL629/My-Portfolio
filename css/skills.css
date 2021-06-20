@@ -123,6 +123,7 @@
     background: crimson;
 }
 .card-skills:nth-child(2) .text-card{
+    
     background: #2F9AFF;
 }
 .card-skills:nth-child(3) .text-card{
@@ -138,6 +139,7 @@
 }
 
 .card-skills:nth-child(6) .text-card{
+    width: 80%;
     background: var(--color-senary);
     
 }
@@ -196,7 +198,7 @@
 .section-title{
     position: absolute;
     top: 1rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2rem;
     color: var(--text-quinary);
     

@@ -51,6 +51,12 @@
     fill: var(--text-ternary);
     /* margin-right: 2rem; */
 }
+.contact-container .contact-contact-info ul.contact-info li span:nth-child(2){
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
 
 .contact-container .contact-contact-info ul.contact-social{
     position: relative;

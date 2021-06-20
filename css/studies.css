@@ -11,8 +11,8 @@
 }
 
 .studies-card-list::-webkit-scrollbar {
-    width: 0.1px;
-    height: 0.1px;
+    display: none;
+    
 }
 
 .studies-card-list::-webkit-scrollbar-thumb {
@@ -115,7 +115,7 @@
 
 .studies-title{
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2rem;
     color: var(--text-quinary);
     
