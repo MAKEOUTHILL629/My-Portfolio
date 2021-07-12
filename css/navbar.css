@@ -222,6 +222,8 @@ main{
 
 
   .dark {
+    
+    
     --text-primary: #E5EAF5;
     --text-secondary: #a0d2eb;
     --text-ternary: var(--color-secondary);
@@ -235,6 +237,7 @@ main{
   }
   
   .light {
+   
     --text-primary: #494d5f;
     --text-secondary: #8458b3;
     --text-ternary: var(--color-senary);

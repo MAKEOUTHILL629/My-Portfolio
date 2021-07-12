@@ -81,6 +81,50 @@ footer{
     
 }
 
+.aclaration_copy{
+    display: inline;
+    position: absolute;
+    top: 4rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #d0bdf4b9;
+}
+
+.about{
+    margin-bottom: 30px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+    /* padding: 5px 3px; */
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-weight: bolder;
+    
+    text-decoration: none;
+   
+}
+
+.download:hover{
+    background: var(--bg-primary);
+}
+
+.download svg{
+    
+    fill: var(--text-primary);
+    width: 30px;
+    height: 30px;
+   
+}
+
 .about_copy strong{
     color: var(--text-secondary);
 }
